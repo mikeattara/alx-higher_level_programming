@@ -26,8 +26,7 @@ class Square:
         This is a public instance method that computes the area
         of a square. This method can be accessed by anyone
         """
-        ans = self.__size * self.__size
-        return ans
+        return self.__size * self.__size
 
     @property
     def size(self):
