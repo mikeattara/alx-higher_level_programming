@@ -12,7 +12,7 @@ class Square:
         """Initialise a new square object with a size
         Args:
             size (int): the size of the square
-            position (tuple): the tuple of two positive numbers
+            position (int, int): the tuple of two positive numbers
         """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
